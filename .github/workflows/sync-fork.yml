@@ -14,5 +14,7 @@ jobs:
       - name: Fork Sync
         uses: tgymnich/fork-sync@v1.2.1
         with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
+          owner: mitgo-tech-dev
           base: master
           head: master
