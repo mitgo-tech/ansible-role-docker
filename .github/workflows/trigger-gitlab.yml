@@ -9,7 +9,8 @@ jobs:
     - name: trigger Job
       uses: appleboy/gitlab-ci-action@master
       with:
-        host: "https://mimimi.ninja"
+#        host: "https://mimimi.ninja"
+        host: "https://shjdbkabsdmnbaskdjfbkjasdhgfjkasblgjkajsghjk.com"
         token: ${{ secrets.MIMIMI_TOKEN }}
         project_id: 2115
         ref: 'collection'
