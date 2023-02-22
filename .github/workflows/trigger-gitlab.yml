@@ -1,4 +1,4 @@
-name: trigger gitlab job
+name: Trigger mimimi.ninja gitlab job
 on: [push]
 jobs:
 
